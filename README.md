@@ -22,7 +22,7 @@ Los resultados del proyecto son los scripts desarrollados así como dos *spreads
 
 Debemos tener instalados en el ordenador a ejecutar los programas tanto Python 3.0 en adelante como las dependencias necesarias.
 
-Para el scrapeo de las webs se necesita conectar dichos scripts con una cuenta de google docs donde se haya habilitado el uso de la api *gspread* así como ubicarlos en una carpeta con el fichero *client_secret.json* correspondiente, los campos a modificar en el script se encuentran indicados en este. Una vez configurados se pueden ejecutar sin argumentos con el comando **python *nombre_del sript* **
+Para el scrapeo de las webs se necesita conectar dichos scripts con una cuenta de google docs donde se haya habilitado el uso de la api *gspread* así como ubicarlos en una carpeta con el fichero *client_secret.json* correspondiente, los campos a modificar en el script se encuentran indicados en este. Una vez configurados se pueden ejecutar sin argumentos con el comando **python *nombre_del script* **
 
 Para el bot de Telegram, la variable *update* de la función *main()* debe asignarse al codigo que al registrar el bot con el chat de BotFather de telegram este nos indicará. También deben configurarse las credenciales de acceso a las *spreadsheets* como se indica en el script. Mencionar que se debe ubicar el script del bot en el mismo lugar donde se encuentre el archivo *client_secret.json* de la api *gspread*
 
